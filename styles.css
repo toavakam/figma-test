@@ -313,3 +313,15 @@
     background-image: url("images/Rectangle\ 24.png"); 
     background-size: cover;
 }
+
+.textblue{
+    color:#01237D;
+}
+
+.textgrey{
+    color: #5B6276;
+}
+
+.footphone{
+    margin-left: 15px;
+}
