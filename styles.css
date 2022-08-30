@@ -142,6 +142,7 @@
     padding: 20px;
     margin: auto;
     margin-bottom: 15px;
+    z-index: 2;
 }
 
 .north {
@@ -272,6 +273,9 @@
     }
 }
 
+.footer{
+    background-color:#0C1431;
+}
 .footer a {
     text-decoration: none;
     color: rgba(241, 241, 241, 0.7);
@@ -279,6 +283,11 @@
 
 .footer a:hover {
     color: #9296F7
+}
+
+.bottomstripe{
+    height:48px; 
+    background-color:#0A122D;
 }
 
 .map {
@@ -291,4 +300,16 @@
 .row {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.vectortwo {
+    background-image: url("images/Vector\ 2.png"); 
+    background-size: cover;
+    background-position-y: bottom; 
+    width: 100%;
+}
+
+.callback {
+    background-image: url("images/Rectangle\ 24.png"); 
+    background-size: cover;
 }
